@@ -15,34 +15,3 @@
   </header>
 </body>
 </html>
-
-<script>
-  const API_BASE = "http://localhost:5161/api";
-
-  const novoBotao = document.getElementById("novoBotao");
-  
-  if (novoBotao) {
-    novoBotao.addEventListener("click", () => {
-      formLabel.textContent = "Novo Imóvel";
-      toggleForm();
-    });
-  }
-
-  // <button id="novoBotao" class="no-visible" data-action="new">
-  // </button>
-
-
-  tbody.addEventListener("click", async (e) => {
-    const button = e.target.closest("button");
-    if (!button) return;
-
-    const action = button.dataset.action;
-
-    if (action === "new") {
-      formLabel.textContent = "Novo Imóvel";
-      toggleForm(true, true);
-    }
-  });
-
-  loadItems();
-</script>
