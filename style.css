@@ -17,8 +17,26 @@ body {
 }
 
 
-.header {
-    width: 80%;
+header {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #064f61;
+    padding: 20px;
+    gap: 30px;
+
+    border-radius: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
 }
 
 table {
@@ -88,19 +106,19 @@ form {
     color: #dcf7fd;
 }
 
-#cancel {
+.cancel {
     background-color: #cc0000;
 }
 
-#cancel:hover {
+.cancel:hover {
     background-color: #ff5555;
 }
 
-#submit {
+.submit {
     background-color: #00cc00;
 }
 
-#submit:hover {
+.submit:hover {
     background-color: #55ff55;
 }
 
