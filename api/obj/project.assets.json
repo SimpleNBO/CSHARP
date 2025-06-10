@@ -5024,19 +5024,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Simple\\.nuget\\packages\\": {}
+    "C:\\Users\\EDUARDOMUNIZMARODIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Simple\\OneDrive\\Desktop\\Coding\\C#\\api\\api.csproj",
+      "projectUniqueName": "C:\\Users\\EDUARDOMUNIZMARODIN\\Desktop\\a\\csharp\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\Users\\Simple\\OneDrive\\Desktop\\Coding\\C#\\api\\api.csproj",
-      "packagesPath": "C:\\Users\\Simple\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Simple\\OneDrive\\Desktop\\Coding\\C#\\api\\obj\\",
+      "projectPath": "C:\\Users\\EDUARDOMUNIZMARODIN\\Desktop\\a\\csharp\\api\\api.csproj",
+      "packagesPath": "C:\\Users\\EDUARDOMUNIZMARODIN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\EDUARDOMUNIZMARODIN\\Desktop\\a\\csharp\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Simple\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\EDUARDOMUNIZMARODIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -5099,7 +5099,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.313/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

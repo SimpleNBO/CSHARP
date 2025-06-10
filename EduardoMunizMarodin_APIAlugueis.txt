@@ -1,0 +1,42 @@
+--// Documentação
+
+Nome: Eduardo Muniz Marodin
+Nome do Projeto: API de Alugueis
+
+Data: 09/06/2025
+Turma: Osório Noturno
+
+Resumo: Api de alugueis para gerenciamento de imóveis e proprietários temporários.
+Problema abordado: Dificuldade em gerenciar alugueis em papel com tamanho volume.
+
+--// Funcionalidades
+
+- Listagem (GET/UPDATE/DELETE)
+> Lista todos os imóveis e exibe um formulário para edição de dados.
+
+- Edição de Dados (UPDATE)
+> Exibe um formulário para edição dos dados.
+
+- Remoção de Imóveis e Locações (DELETE)
+> Um botão para simples deleção com confirmação na area da listagem.
+
+--// Descrição técnica
+
+Na página de listagem, existe um botão com icone de edição que carrega os dados em um formulário e torna o formulário visível, quando clica em salvar no formulário ele da upload dos dados editados no banco de dados.
+Isso se aplica para imóveis e para locações
+
+Na página de listagem, existe um botão com icone de lixeira que remove a linha de dados do banco de dados relacionada a este botão quando for clicado, após uma confirmação.
+
+Na página de listagem, existe um botão com icone de + no final de cada lista que exibe o formulário para adicionar uma nova entrada em cada tabela.
+
+--// Endpoints
+
+- GET/PUT/POST
+${API_BASE}/imoveis
+${API_BASE}/imoveis/${id}
+${API_BASE}/alugueis
+${API_BASE}/alugueis/${id}
+
+-- DELETE
+${API_BASE}/imoveis/${id}
+${API_BASE}/alugueis/${id}
